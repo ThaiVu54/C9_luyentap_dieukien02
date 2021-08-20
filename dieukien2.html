@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>điều kiện 2</title>
+</head>
+<body>
+<script>
+    // //chuyển từ độ c sang độ f: f = c*(9/5)+32
+    // let doC=prompt('nhap gia tri do C')
+    // doC = parseInt(doC)
+    // let doF = doC*(9/5)+32
+    // doF = parseFloat(doF)
+    // alert(doF + " do F")
+
+    // //chuyển từ m sang feet: ft = m * 3.2808
+    // let m = prompt('nhap so m')
+    // m = parseFloat(m)
+    // let ft = m * 3.2808
+    // ft=parseFloat(ft)
+    // alert(ft+ ' do feet')
+    //
+    // //tính diện tích hình vuông
+    // let a = prompt('nhap a')
+    //     a= parseFloat(a)
+    // alert('dien tich hinh vuong co canh ' +a+ ' = '+(a*a))
+    //
+    // //tính dien tich hinh chu nhật
+    // let chieuDai = prompt('nhap chieu dai')
+    // chieuDai = parseFloat(chieuDai)
+    // let chieuRong = prompt('nhap chieu rong')
+    // chieuRong = parseFloat(chieuRong)
+    // alert('dien tich hinh chu nhat co chieu dai '+chieuDai+' và chieu rong '+chieuRong+ ' là: '+(chieuDai*chieuRong))
+
+    // //giai phuong trinh bac 1 ax+b=0
+    // let a = prompt('nhap gia tri a')
+    // a = parseInt(a)
+    // let b = prompt('nhap gia tri b')
+    // b = parseInt(b)
+    // let x = (-a)/b
+    // x = parseFloat(x)
+    // if(a == 0){
+    //     alert('phuong trinh ax+b=0 vo nghiem với a = 0')
+    // }else if(a == 0 && b == 0){
+    //     alert('phuong trinh ax+b=0 co vo so nghiem ')
+    // }else alert('phuong trinh ax+b=0 co nghiem duy nhat x = '+x)
+
+    // //giai phuong trinh bac 2
+    // let a = prompt('nhap a')
+    // a = parseInt(a)
+    // let b = prompt('nhap b')
+    // b = parseInt(b)
+    // let c = prompt('nhap c')
+    // c = parseInt(c)
+    // let delta = b*b - 4*a*c
+    // delta = parseFloat(delta)
+    // if(delta < 0){
+    //     document.write('phuong trinh vo nghiem')
+    // }else if(delta == 0){
+    //     document.write('phuong trinh co nghiem trung x1 = x2 = ' +(-b)/2*a)
+    // }else{
+    //     document.write('phuong trinh co 2 nghiem phan biet x1 = '+((-b)+Math.sqrt(delta))/(2*a)+", x2 = "+((-b)-Math.sqrt(delta))/(2*a))
+    // }
+
+    //Kiểm tra xem một số nhập vào có phải là tuổi của một người không. Một số nguyên là tuổi của một người khi nhỏ 120 và lơn hơn 0.
+
+    //Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một tam giác là:
+    // a,b,c > 0
+    // a + b > c
+    // b + c > a
+    // a + c > b
+    let a = prompt('nhap a')
+    a = parseInt(a)
+    let b = prompt('nhap b')
+    b = parseInt(b)
+    let c = prompt('nhap c')
+    c = parseInt(c)
+    if((a+b) > c || (a+c) > b || (b+c) > a){
+        alert('a,b,c la 3 canh cua tam giac')
+    }else alert('a,b,c khong la 3 canh cua tam gia')
+
+    // Viết chương trình tính giá điện.
+
+    //Viết chương trình tính thuế thu nhập cá nhân.
+
+    //Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.
+</script>
+</body>
+</html>
